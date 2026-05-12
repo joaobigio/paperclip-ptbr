@@ -97,7 +97,7 @@ export const resources = {
 } as const;
 
 i18n.use(initReactI18next).init({
-  lng: "pt-BR",
+  lng: "en", // DEBUG: temporariamente trocado pra en pra isolar bug em JSON pt-BR
   fallbackLng: "en",
   defaultNS,
   resources,
