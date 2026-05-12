@@ -597,21 +597,21 @@ function runDurationLabel(run: {
   const stopReason = typeof run.resultJson?.stopReason === "string" ? run.resultJson.stopReason : null;
   switch (run.status) {
     case "succeeded":
-      return durationText ? `Worked for ${durationText}` : "Finished work";
+      return durationText ? `Trabalhou por ${durationText}` : "Trabalho concluído";
     case "failed":
     case "error":
-      return durationText ? `Failed after ${durationText}` : "Run failed";
+      return durationText ? `Falhou após ${durationText}` : "Execução falhou";
     case "timed_out":
-      return durationText ? `Timed out after ${durationText}` : "Run timed out";
+      return durationText ? `Tempo esgotado após ${durationText}` : "Tempo esgotado";
     case "cancelled":
       if (stopReason === "paused") {
-        return durationText ? `Paused by board after ${durationText}` : "Paused by board";
+        return durationText ? `Pausado pelo painel após ${durationText}` : "Pausado pelo painel";
       }
-      return durationText ? `Cancelled after ${durationText}` : "Run cancelled";
+      return durationText ? `Cancelado após ${durationText}` : "Execução cancelada";
     case "queued":
-      return "Queued";
+      return "Na fila";
     case "running":
-      return "Working...";
+      return "Trabalhando...";
     default:
       return formatStatusLabel(run.status);
   }
