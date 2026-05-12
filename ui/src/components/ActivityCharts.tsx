@@ -128,6 +128,13 @@ const priorityColors: Record<string, string> = {
   low: "#6b7280",
 };
 
+const priorityLabels: Record<string, string> = {
+  critical: "Crítica",
+  high: "Alta",
+  medium: "Média",
+  low: "Baixa",
+};
+
 const priorityOrder = ["critical", "high", "medium", "low"] as const;
 
 export function PriorityChart({ issues }: { issues: { priority: string; createdAt: Date }[] }) {
@@ -169,7 +176,7 @@ export function PriorityChart({ issues }: { issues: { priority: string; createdA
         })}
       </div>
       <DateLabels days={days} />
-      <ChartLegend items={priorityOrder.map(p => ({ color: priorityColors[p], label: p.charAt(0).toUpperCase() + p.slice(1) }))} />
+      <ChartLegend items={priorityOrder.map(p => ({ color: priorityColors[p], label: priorityLabels[p] ?? p }))} />
     </div>
   );
 }

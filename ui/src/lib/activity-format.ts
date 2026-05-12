@@ -71,6 +71,13 @@ const ACTIVITY_ROW_VERBS: Record<string, string> = {
   "company.updated": "atualizou empresa",
   "company.archived": "arquivou",
   "company.budget_updated": "atualizou orçamento de",
+  "environment.created": "criou ambiente",
+  "environment.updated": "atualizou ambiente",
+  "environment.deleted": "excluiu ambiente",
+  "environment.probed": "verificou ambiente",
+  "environment.probed_unsaved": "verificou ambiente não salvo",
+  "environment.lease_acquired": "adquiriu ambiente de execução",
+  "environment.lease_released": "liberou ambiente de execução",
 };
 
 const ISSUE_ACTIVITY_LABELS: Record<string, string> = {
