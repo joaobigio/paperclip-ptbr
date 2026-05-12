@@ -28,19 +28,19 @@ function formatRelativeTime(input: string | null): string {
   if (Number.isNaN(value.getTime())) return "";
   const diffMs = Date.now() - value.getTime();
   const seconds = Math.round(diffMs / 1000);
-  if (seconds < 60) return "just now";
+  if (seconds < 60) return "agora";
   const minutes = Math.round(seconds / 60);
-  if (minutes < 60) return `${minutes}m`;
+  if (minutes < 60) return `${minutes}min`;
   const hours = Math.round(minutes / 60);
   if (hours < 24) return `${hours}h`;
   const days = Math.round(hours / 24);
   if (days < 7) return `${days}d`;
   const weeks = Math.round(days / 7);
-  if (weeks < 5) return `${weeks}w`;
+  if (weeks < 5) return `${weeks}sem`;
   const months = Math.round(days / 30);
-  if (months < 12) return `${months}mo`;
+  if (months < 12) return `${months}m`;
   const years = Math.round(days / 365);
-  return `${years}y`;
+  return `${years}a`;
 }
 
 export interface SearchResultRowProps {

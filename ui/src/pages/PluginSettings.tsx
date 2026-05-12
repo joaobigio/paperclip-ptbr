@@ -1151,15 +1151,15 @@ function formatRelativeTime(isoString: string): string {
   const then = new Date(isoString).getTime();
   const diffMs = now - then;
 
-  if (diffMs < 0) return "just now";
+  if (diffMs < 0) return "agora mesmo";
   const seconds = Math.floor(diffMs / 1000);
-  if (seconds < 60) return `${seconds}s ago`;
+  if (seconds < 60) return `há ${seconds}s`;
   const minutes = Math.floor(seconds / 60);
-  if (minutes < 60) return `${minutes}m ago`;
+  if (minutes < 60) return `há ${minutes}min`;
   const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours}h ago`;
+  if (hours < 24) return `há ${hours}h`;
   const days = Math.floor(hours / 24);
-  return `${days}d ago`;
+  return `há ${days}d`;
 }
 
 /**

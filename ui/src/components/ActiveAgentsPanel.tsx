@@ -39,7 +39,7 @@ interface ActiveAgentsPanelProps {
 
 export function ActiveAgentsPanel({
   companyId,
-  title = "Agents",
+  title = "Agentes",
   minRunCount = MIN_DASHBOARD_RUNS,
   fetchLimit,
   cardLimit = DASHBOARD_RUN_CARD_LIMIT,

@@ -185,12 +185,12 @@ const statusColors: Record<string, string> = {
 };
 
 const statusLabels: Record<string, string> = {
-  todo: "To Do",
-  in_progress: "In Progress",
-  in_review: "In Review",
-  done: "Done",
-  blocked: "Blocked",
-  cancelled: "Cancelled",
+  todo: "A Fazer",
+  in_progress: "Em Andamento",
+  in_review: "Em Revisão",
+  done: "Concluído",
+  blocked: "Bloqueado",
+  cancelled: "Cancelado",
   backlog: "Backlog",
 };
 
