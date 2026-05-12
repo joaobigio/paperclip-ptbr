@@ -1,0 +1,40 @@
+{
+  "title": "Painel",
+  "welcome": "Bem-vindo ao Paperclip. Configure sua primeira empresa e agente para começar.",
+  "selectCompany": "Crie ou selecione uma empresa para visualizar o painel.",
+  "noAgents": {
+    "message": "Você não tem agentes.",
+    "createAction": "Criar um aqui"
+  },
+  "metrics": {
+    "agentsEnabled": "Agentes Ativos",
+    "running": "{{count}} em execução",
+    "paused": "{{count}} pausados",
+    "errors": "{{count}} erros",
+    "tasksInProgress": "Tarefas em Andamento",
+    "open": "{{count}} abertas",
+    "blocked": "{{count}} bloqueadas",
+    "monthSpend": "Gasto do Mês",
+    "budgetPercent": "{{percent}}% do orçamento de {{budget}}",
+    "unlimitedBudget": "Orçamento ilimitado",
+    "pendingApprovals": "Aprovações Pendentes",
+    "budgetOverridesAwaiting": "{{count}} substituições de orçamento aguardando revisão da diretoria",
+    "awaitingBoardReview": "Aguardando revisão da diretoria"
+  },
+  "budgetIncidents": {
+    "activeIncidents_one": "{{count}} incidente de orçamento ativo",
+    "activeIncidents_other": "{{count}} incidentes de orçamento ativos",
+    "pausedDetails": "{{agents}} agentes pausados · {{projects}} projetos pausados · {{approvals}} aprovações de orçamento pendentes",
+    "openBudgets": "Abrir orçamentos"
+  },
+  "charts": {
+    "runActivity": "Atividade de Execução",
+    "issuesByPriority": "Problemas por Prioridade",
+    "issuesByStatus": "Problemas por Status",
+    "successRate": "Taxa de Sucesso"
+  },
+  "sections": {
+    "recentActivity": "Atividade Recente",
+    "recentTasks": "Tarefas Recentes"
+  }
+}

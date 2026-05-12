@@ -1,0 +1,138 @@
+{
+  "breadcrumb": {
+    "plugins": "Plugins",
+    "settings": "Configurações"
+  },
+  "manager": {
+    "title": "Gerenciador de Plugins",
+    "installButton": "Instalar Plugin",
+    "alphaTitle": "Plugins estão em alpha.",
+    "alphaBody": "O runtime e a superfície de API dos plugins ainda estão mudando. Espere mudanças que quebram compatibilidade enquanto este recurso se estabiliza.",
+    "availablePlugins": "Plugins Disponíveis",
+    "examples": "Exemplos",
+    "installedPlugins": "Plugins Instalados",
+    "noPluginsInstalled": "Nenhum plugin instalado",
+    "noPluginsInstalledBody": "Instale um plugin para estender a funcionalidade.",
+    "noBundledExamples": "Nenhum plugin de exemplo incluído foi encontrado neste checkout.",
+    "loading": "Carregando plugins…",
+    "loadError": "Falha ao carregar plugins.",
+    "loadingExamples": "Carregando exemplos incluídos…",
+    "loadExamplesError": "Falha ao carregar exemplos incluídos.",
+    "notInstalled": "Não instalado",
+    "enable": "Ativar",
+    "openSettings": "Abrir Configurações",
+    "review": "Revisar",
+    "installExample": "Instalar Exemplo",
+    "installing": "Instalando…",
+    "configure": "Configurar",
+    "pluginError": "Erro no plugin",
+    "viewFullError": "Ver erro completo",
+    "noDescription": "Nenhuma descrição fornecida."
+  },
+  "install": {
+    "dialogTitle": "Instalar Plugin",
+    "dialogDescription": "Digite o nome do pacote npm do plugin que você deseja instalar.",
+    "packageNameLabel": "Nome do Pacote npm",
+    "packageNamePlaceholder": "@paperclipai/plugin-example",
+    "cancel": "Cancelar",
+    "install": "Instalar",
+    "installing": "Instalando…"
+  },
+  "uninstall": {
+    "dialogTitle": "Desinstalar Plugin",
+    "dialogDescription": "Tem certeza de que deseja desinstalar <strong>{{name}}</strong>? Esta ação não pode ser desfeita.",
+    "cancel": "Cancelar",
+    "uninstall": "Desinstalar",
+    "uninstalling": "Desinstalando…"
+  },
+  "errorDetails": {
+    "dialogTitle": "Detalhes do Erro",
+    "whatErrored": "O que causou o erro",
+    "noErrorSummary": "Nenhum resumo de erro disponível.",
+    "fullErrorOutput": "Saída completa do erro",
+    "noStoredError": "Nenhuma mensagem de erro armazenada.",
+    "close": "Fechar"
+  },
+  "toasts": {
+    "installed": "Plugin instalado com sucesso",
+    "installFailed": "Falha ao instalar plugin",
+    "uninstalled": "Plugin desinstalado com sucesso",
+    "uninstallFailed": "Falha ao desinstalar plugin",
+    "enabled": "Plugin ativado",
+    "enableFailed": "Falha ao ativar plugin",
+    "disabled": "Plugin desativado",
+    "disableFailed": "Falha ao desativar plugin"
+  },
+  "page": {
+    "selectCompany": "Selecione uma empresa para visualizar esta página.",
+    "loading": "Carregando…",
+    "back": "Voltar",
+    "multipleRoutes": "Múltiplos plugins declaram a rota"
+  },
+  "settings": {
+    "loadingDetails": "Carregando detalhes do plugin…",
+    "detailsFallback": "Detalhes do Plugin",
+    "tabs": {
+      "configuration": "Configuração",
+      "status": "Status"
+    },
+    "about": "Sobre",
+    "settingsSection": "Configurações",
+    "description": "Descrição",
+    "author": "Autor",
+    "categories": "Categorias",
+    "none": "Nenhuma",
+    "noSettings": "Este plugin não requer nenhuma configuração.",
+    "runtimeDashboard": {
+      "title": "Painel de Runtime",
+      "description": "Processo worker, jobs agendados e entregas de webhook",
+      "workerProcess": "Processo Worker",
+      "status": "Status",
+      "pid": "PID",
+      "uptime": "Tempo Ativo",
+      "pendingRpcs": "RPCs Pendentes",
+      "crashes": "Crashes",
+      "lastCrash": "Último Crash",
+      "noWorker": "Nenhum processo worker registrado.",
+      "recentJobRuns": "Execuções de Jobs Recentes",
+      "noJobRuns": "Nenhuma execução de job registrada ainda.",
+      "recentWebhookDeliveries": "Entregas de Webhook Recentes",
+      "noWebhookDeliveries": "Nenhuma entrega de webhook registrada ainda.",
+      "lastChecked": "Última verificação:",
+      "unavailable": "Diagnósticos de runtime não estão disponíveis no momento."
+    },
+    "recentLogs": {
+      "title": "Logs Recentes",
+      "lastEntries": "Últimas {{count}} entradas de log"
+    },
+    "healthStatus": {
+      "title": "Status de Saúde",
+      "checking": "Verificando saúde…",
+      "overall": "Geral",
+      "lifecycle": "Ciclo de Vida",
+      "noHealthChecks": "Verificações de saúde são executadas quando o plugin estiver pronto."
+    },
+    "details": {
+      "title": "Detalhes",
+      "pluginId": "ID do Plugin",
+      "pluginKey": "Chave do Plugin",
+      "npmPackage": "Pacote NPM",
+      "version": "Versão"
+    },
+    "permissions": {
+      "title": "Permissões",
+      "none": "Nenhuma permissão especial solicitada."
+    },
+    "configForm": {
+      "loading": "Carregando configuração…",
+      "saved": "Configuração salva.",
+      "saveFailed": "Falha ao salvar configuração.",
+      "testPassed": "Teste de configuração passou.",
+      "testFailed": "Teste de configuração falhou.",
+      "save": "Salvar Configuração",
+      "saving": "Salvando…",
+      "test": "Testar Configuração",
+      "testing": "Testando…"
+    }
+  }
+}

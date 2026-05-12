@@ -1,0 +1,49 @@
+{
+  "title": "Aprovações",
+  "selectCompany": "Selecione uma empresa primeiro.",
+  "tabs": {
+    "pending": "Pendentes",
+    "all": "Todas"
+  },
+  "empty": {
+    "noPending": "Nenhuma aprovação pendente.",
+    "noApprovals": "Nenhuma aprovação ainda."
+  },
+  "detail": {
+    "notFound": "Aprovação não encontrada.",
+    "approvedBannerTitle": "Aprovação confirmada",
+    "approvedBannerDescription": "O agente solicitante foi notificado para revisar esta aprovação e as issues vinculadas.",
+    "reviewLinkedIssues": "Revisar issues vinculadas",
+    "reviewLinkedIssue": "Revisar issue vinculada",
+    "openHiredAgent": "Abrir agente contratado",
+    "backToApprovals": "Voltar para aprovações",
+    "requestedBy": "Solicitado por",
+    "seeFullRequest": "Ver solicitação completa",
+    "decisionNote": "Nota da decisão: {{note}}",
+    "linkedIssues": "Issues Vinculadas",
+    "linkedIssuesFootnote": "As issues vinculadas permanecem abertas até que o agente solicitante faça o acompanhamento e as feche.",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "budgetResolve": "Resolva esta interrupção de orçamento nos controles de orçamento em",
+    "requestRevision": "Solicitar revisão",
+    "markResubmitted": "Marcar como reenviado",
+    "deleteDisapprovedAgent": "Excluir agente reprovado",
+    "deleteDisapprovedAgentConfirm": "Excluir este agente reprovado? Essa ação não pode ser desfeita.",
+    "comments": "Comentários ({{count}})",
+    "commentPlaceholder": "Adicionar um comentário...",
+    "posting": "Publicando…",
+    "postComment": "Publicar comentário",
+    "board": "Quadro"
+  },
+  "card": {
+    "requestedBy": "Solicitado por",
+    "createdAt": "Solicitação de aprovação criada {{time}}",
+    "decisionNoteLabel": "Nota da decisão.",
+    "viewDetails": "Ver detalhes",
+    "approve": "Aprovar",
+    "approving": "Aprovando...",
+    "reject": "Rejeitar",
+    "rejecting": "Rejeitando...",
+    "note": "Nota: {{note}}"
+  }
+}

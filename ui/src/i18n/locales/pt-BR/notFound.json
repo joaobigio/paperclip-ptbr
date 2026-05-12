@@ -1,0 +1,10 @@
+{
+  "breadcrumb": "Não Encontrado",
+  "pageNotFound": "Página não encontrada",
+  "companyNotFound": "Empresa não encontrada",
+  "noCompanyMatchesPrefix": "Nenhuma empresa corresponde ao prefixo \"{{prefix}}\".",
+  "routeDoesNotExist": "Esta rota não existe.",
+  "requestedPath": "Caminho solicitado:",
+  "openDashboard": "Abrir painel",
+  "goHome": "Ir para início"
+}

@@ -1,0 +1,61 @@
+{
+  "sidebar": {
+    "selectCompany": "Selecionar empresa",
+    "newIssue": "Nova Tarefa",
+    "dashboard": "Painel",
+    "inbox": "Caixa de Entrada",
+    "issues": "Tarefas",
+    "goals": "Metas",
+    "routines": "Rotinas",
+    "skills": "Habilidades",
+    "org": "Organização",
+    "costs": "Custos",
+    "activity": "Atividade",
+    "settings": "Configurações",
+    "projects": "Projetos",
+    "agents": "Agentes",
+    "work": "Trabalho",
+    "company": "Empresa",
+    "general": "Geral",
+    "experimental": "Experimental",
+    "instanceSettings": "Configurações da Instância",
+    "heartbeats": "Heartbeats",
+    "plugins": "Plugins",
+    "adapters": "Adaptadores",
+    "profile": "Perfil",
+    "access": "Acesso",
+    "workspaces": "Espaços de Trabalho"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Buscar tarefas, agentes, projetos...",
+    "noResults": "Nenhum resultado encontrado.",
+    "actions": "Ações",
+    "createNewIssue": "Criar nova tarefa",
+    "createNewAgent": "Criar novo agente",
+    "createNewProject": "Criar novo projeto",
+    "pages": "Páginas",
+    "issues": "Tarefas",
+    "agents": "Agentes",
+    "projects": "Projetos"
+  },
+  "mobile": {
+    "home": "Início",
+    "issues": "Tarefas",
+    "create": "Criar",
+    "agents": "Agentes",
+    "inbox": "Caixa de Entrada"
+  },
+  "breadcrumbs": {
+    "dashboard": "Painel",
+    "agents": "Agentes",
+    "issues": "Tarefas",
+    "approvals": "Aprovações",
+    "goals": "Metas",
+    "projects": "Projetos",
+    "costs": "Custos",
+    "activity": "Atividade",
+    "inbox": "Caixa de Entrada",
+    "settings": "Configurações",
+    "notFound": "Não Encontrado"
+  }
+}

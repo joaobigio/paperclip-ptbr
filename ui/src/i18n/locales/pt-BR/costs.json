@@ -1,0 +1,59 @@
+{
+  "title": "Custos",
+  "selectCompany": "Selecione uma empresa para visualizar os custos.",
+  "tabs": {
+    "overview": "Visão geral",
+    "ledger": "Livro-razão",
+    "budgets": "Orçamentos",
+    "quotas": "Cotas",
+    "providers": "Provedores",
+    "billers": "Cobradores",
+    "finance": "Financeiro"
+  },
+  "filter": {
+    "allProviders": "Todos os provedores",
+    "allBillers": "Todos os cobradores"
+  },
+  "financeLedger": "Livro-razão financeiro",
+  "overview": {
+    "totalSpend": "Gasto total",
+    "budget": "Orçamento",
+    "unlimited": "Ilimitado",
+    "utilization": "{{percent}}% de utilização"
+  },
+  "budgetIncident": {
+    "hardStop": "Bloqueio rígido de {{scopeType}}",
+    "spendingReached": "Gasto atingiu {{observed}} contra um limite de {{limit}}.",
+    "projectPaused": "A execução do projeto está pausada. Novos trabalhos neste projeto não serão iniciados até que você resolva o incidente de orçamento.",
+    "scopePaused": "Este escopo está pausado. Novos heartbeats não serão iniciados até que você resolva o incidente de orçamento.",
+    "newBudgetLabel": "Novo orçamento (USD)",
+    "applying": "Aplicando…",
+    "raiseAndResume": "Aumentar orçamento e retomar",
+    "budgetMustExceedSpend": "O novo orçamento deve exceder o gasto observado atual.",
+    "keepPaused": "Manter pausado"
+  },
+  "budgetPolicy": {
+    "observed": "Observado",
+    "budget": "Orçamento",
+    "noCapConfigured": "Nenhum limite configurado",
+    "percentOfLimit": "{{percent}}% do limite",
+    "disabled": "Desativado",
+    "softAlertAt": "Alerta leve em {{percent}}%",
+    "pauseSuffix": " · pausa de {{reason}}",
+    "remaining": "Restante",
+    "unlimited": "Ilimitado",
+    "projectPaused": "A execução está pausada para este projeto até que o orçamento seja aumentado ou o incidente seja descartado.",
+    "scopePaused": "Os heartbeats estão pausados para este escopo até que o orçamento seja aumentado ou o incidente seja descartado.",
+    "budgetUsd": "Orçamento (USD)",
+    "saving": "Salvando…",
+    "updateBudget": "Atualizar orçamento",
+    "setBudget": "Definir orçamento",
+    "invalidAmount": "Insira um valor em dólares válido e não negativo.",
+    "lifetimeBudget": "Orçamento vitalício",
+    "monthlyBudget": "Orçamento mensal UTC",
+    "paused": "Pausado",
+    "warning": "Aviso",
+    "hardStop": "Bloqueio rígido",
+    "healthy": "Saudável"
+  }
+}

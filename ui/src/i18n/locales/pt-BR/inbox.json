@@ -1,0 +1,83 @@
+{
+  "title": "Caixa de Entrada",
+  "selectCompany": "Selecione uma empresa para visualizar a caixa de entrada.",
+  "tabs": {
+    "mine": "Meus",
+    "recent": "Recentes",
+    "unread": "Não lidos",
+    "all": "Todos"
+  },
+  "empty": {
+    "inboxZero": "Caixa de entrada vazia.",
+    "noSearch": "Nenhum item da caixa de entrada corresponde à sua busca.",
+    "noUnread": "Nenhum item novo na caixa de entrada.",
+    "noRecent": "Nenhum item recente na caixa de entrada.",
+    "noMatch": "Nenhum item da caixa de entrada corresponde a esses filtros."
+  },
+  "markAllRead": {
+    "title": "Marcar todos como lidos?",
+    "description": "Isso marcará {{count}} {{items}} não lidos como lidos.",
+    "item": "item",
+    "items": "itens"
+  },
+  "categories": {
+    "allCategories": "Todas as categorias",
+    "myRecentIssues": "Minhas issues recentes",
+    "joinRequests": "Solicitações de acesso",
+    "approvals": "Aprovações",
+    "failedRuns": "Execuções com falha",
+    "alerts": "Alertas"
+  },
+  "approvalFilters": {
+    "allStatuses": "Todos os status de aprovação",
+    "needsAction": "Requer ação",
+    "resolved": "Resolvidas"
+  },
+  "sections": {
+    "approvalsNeedingAction": "Aprovações que Requerem Ação",
+    "approvals": "Aprovações",
+    "joinRequests": "Solicitações de Acesso",
+    "failedRuns": "Execuções com Falha",
+    "alerts": "Alertas"
+  },
+  "runSources": {
+    "timer": "Agendada",
+    "assignment": "Atribuição",
+    "on_demand": "Manual",
+    "automation": "Automação"
+  },
+  "failedRun": {
+    "errorCode": "Código de erro: {{code}}",
+    "noLinkedIssue": "Nenhuma issue vinculada",
+    "runFailed": "Execução {{source}} falhou {{timeAgo}}",
+    "openRun": "Abrir execução",
+    "runExitedWithError": "A execução terminou com erro.",
+    "dismiss": "Descartar",
+    "agentFallback": "Agente {{id}}"
+  },
+  "approval": {
+    "requestedBy": "solicitada por {{name}}",
+    "updatedTimeAgo": "atualizada {{timeAgo}}"
+  },
+  "issue": {
+    "commentedTimeAgo": "comentou {{timeAgo}}",
+    "updatedTimeAgo": "atualizada {{timeAgo}}"
+  },
+  "placeholders": {
+    "category": "Categoria",
+    "approvalStatus": "Status de aprovação"
+  },
+  "joinRequest": {
+    "humanJoinRequest": "Solicitação de acesso humano",
+    "agentJoinRequest": "Solicitação de acesso de agente",
+    "agentJoinRequestNamed": "Solicitação de acesso de agente: {{name}}",
+    "requestedTimeAgo": "solicitada {{timeAgo}} do IP {{ip}}",
+    "email": "e-mail: {{email}}",
+    "adapter": "adaptador: {{adapter}}"
+  },
+  "alerts": {
+    "agentErrors_one": "{{count}} agente tem erros",
+    "agentErrors_other": "{{count}} agentes têm erros",
+    "budgetUtilization": "Orçamento com {{percent}}% de utilização este mês"
+  }
+}

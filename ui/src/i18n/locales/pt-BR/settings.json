@@ -1,0 +1,150 @@
+{
+  "title": "Configurações da Empresa",
+  "noCompanySelected": "Nenhuma empresa selecionada. Selecione uma empresa no seletor acima.",
+  "sections": {
+    "general": "Geral",
+    "appearance": "Aparência",
+    "hiring": "Contratação",
+    "feedbackSharing": "Compartilhamento de Feedback",
+    "invites": "Convites",
+    "companyPackages": "Pacotes da Empresa",
+    "dangerZone": "Zona de Perigo"
+  },
+  "feedbackSharing": {
+    "toggleLabel": "Permitir compartilhamento de saídas de IA votadas com Paperclip Labs",
+    "toggleHint": "Apenas saídas geradas por IA nas quais você votou explicitamente são elegíveis para compartilhamento de feedback.",
+    "description": "Votos são sempre salvos localmente. Esta configuração controla se as saídas de IA votadas também podem ser marcadas para compartilhamento com Paperclip Labs.",
+    "termsVersion": "Versão dos termos: {{version}}",
+    "enabledAt": "Ativado em {{date}}",
+    "currentlyDisabled": "O compartilhamento está atualmente desabilitado.",
+    "tosLink": "Leia nossos termos de serviço",
+    "enabledToast": "Compartilhamento de feedback ativado",
+    "disabledToast": "Compartilhamento de feedback desabilitado",
+    "failedToast": "Falha ao atualizar compartilhamento de feedback"
+  },
+  "companyPackages": {
+    "description": "Importação e exportação foram movidas para páginas dedicadas acessíveis no cabeçalho do Organograma.",
+    "export": "Exportar",
+    "import": "Importar"
+  },
+  "general": {
+    "companyName": "Nome da empresa",
+    "companyNameHint": "O nome de exibição da sua empresa.",
+    "description": "Descrição",
+    "descriptionHint": "Descrição opcional exibida no perfil da empresa.",
+    "descriptionPlaceholder": "Descrição opcional da empresa"
+  },
+  "appearance": {
+    "logo": "Logo",
+    "logoHint": "Envie uma imagem de logo em PNG, JPEG, WEBP, GIF ou SVG.",
+    "removeLogo": "Remover logo",
+    "removing": "Removendo…",
+    "uploadingLogo": "Enviando logo…",
+    "brandColor": "Cor da marca",
+    "brandColorHint": "Define a tonalidade do ícone da empresa. Deixe vazio para cor gerada automaticamente.",
+    "autoPlaceholder": "Automático"
+  },
+  "hiring": {
+    "requireApproval": "Exigir aprovação do conselho para novas contratações",
+    "requireApprovalHint": "Novas contratações de agentes ficam pendentes até aprovação do conselho."
+  },
+  "invites": {
+    "generateHint": "Gere um trecho de convite de agente OpenClaw.",
+    "hintTooltip": "Cria um convite de agente OpenClaw temporário e renderiza um prompt pronto para copiar.",
+    "generateButton": "Gerar Prompt de Convite OpenClaw",
+    "generating": "Gerando…",
+    "openClawInvitePrompt": "Prompt de Convite OpenClaw"
+  },
+  "dangerZone": {
+    "archiveDescription": "Arquive esta empresa para ocultá-la da barra lateral. Isso persiste no banco de dados.",
+    "archiveButton": "Arquivar empresa",
+    "archiving": "Arquivando…",
+    "alreadyArchived": "Já arquivada"
+  },
+  "org": {
+    "breadcrumb": "Organograma",
+    "selectCompany": "Selecione uma empresa para visualizar o organograma.",
+    "noAgents": "Nenhuma hierarquia organizacional definida.",
+    "fitToScreen": "Ajustar à tela",
+    "zoomIn": "Aumentar zoom",
+    "zoomOut": "Diminuir zoom",
+    "fit": "Ajustar"
+  },
+  "companies": {
+    "breadcrumb": "Empresas",
+    "newCompany": "Nova Empresa",
+    "loading": "Carregando empresas…",
+    "rename": "Renomear",
+    "deleteCompany": "Excluir Empresa",
+    "agentCount_one": "{{count}} agente",
+    "agentCount_other": "{{count}} agentes",
+    "issueCount_one": "{{count}} issue",
+    "issueCount_other": "{{count}} issues",
+    "unlimitedBudget": "Orçamento ilimitado",
+    "createdAt": "Criada {{relativeTime}}",
+    "deleteConfirm": "Excluir esta empresa e todos os seus dados? Esta ação não pode ser desfeita.",
+    "cancel": "Cancelar",
+    "deleting": "Excluindo…",
+    "delete": "Excluir"
+  },
+  "instanceSettings": {
+    "breadcrumbParent": "Configurações da Instância",
+    "breadcrumbChild": "Heartbeats",
+    "loadingHeartbeats": "Carregando heartbeats do agendador…",
+    "failedToLoad": "Falha ao carregar heartbeats do agendador.",
+    "schedulerHeartbeatsTitle": "Heartbeats do Agendador",
+    "schedulerHeartbeatsDescription": "Agentes com heartbeat de timer ativado em todas as suas empresas.",
+    "active": "ativo",
+    "disabled": "desabilitado",
+    "company_one": "empresa",
+    "company_other": "empresas",
+    "noHeartbeats": "Nenhum heartbeat do agendador corresponde aos critérios atuais.",
+    "on": "Ligado",
+    "off": "Desligado",
+    "never": "nunca",
+    "fullAgentConfig": "Configuração completa do agente",
+    "disableTimerHeartbeat": "Desabilitar Heartbeat de Timer",
+    "enableTimerHeartbeat": "Habilitar Heartbeat de Timer",
+    "disableAll": "Desabilitar Todos",
+    "disabling": "Desabilitando…",
+    "disableAllConfirm": "Desabilitar heartbeats de timer para todos os {{count}} agentes habilitados?"
+  },
+  "executionWorkspaceDetail": {
+    "subtitle": "Workspace de execução",
+    "loading": "Carregando...",
+    "loadError": "Falha ao carregar workspace",
+    "fields": {
+      "project": "Projeto",
+      "sourceIssue": "Issue de origem",
+      "branch": "Branch",
+      "baseRef": "Ref base",
+      "workingDir": "Diretório de trabalho",
+      "providerRef": "Ref do provedor",
+      "repoUrl": "URL do repositório",
+      "opened": "Aberto",
+      "lastUsed": "Último uso",
+      "cleanup": "Limpeza"
+    },
+    "none": "Nenhum",
+    "notScheduled": "Não agendado"
+  },
+  "experimental": {
+    "breadcrumbParent": "Configurações da Instância",
+    "breadcrumbChild": "Experimental",
+    "loading": "Carregando configurações experimentais...",
+    "loadError": "Falha ao carregar configurações experimentais.",
+    "heading": "Experimental",
+    "description": "Opte por recursos que ainda estão sendo avaliados antes de se tornarem comportamento padrão.",
+    "updateError": "Falha ao atualizar configurações experimentais.",
+    "isolatedWorkspaces": {
+      "title": "Habilitar Workspaces Isolados",
+      "description": "Mostrar controles de workspace de execução na configuração do projeto e permitir comportamento de workspace isolado para execuções de issues novas e existentes.",
+      "ariaLabel": "Alternar configuração experimental de workspaces isolados"
+    },
+    "autoRestartDevServer": {
+      "title": "Reiniciar Automaticamente Dev Server Quando Ocioso",
+      "description": "Em `pnpm dev:once`, aguarde todas as execuções de agentes locais enfileiradas e em execução terminarem, depois reinicie o servidor automaticamente quando alterações de backend ou migrações tornarem a inicialização atual obsoleta.",
+      "ariaLabel": "Alternar reinício automático protegido do dev-server"
+    }
+  }
+}

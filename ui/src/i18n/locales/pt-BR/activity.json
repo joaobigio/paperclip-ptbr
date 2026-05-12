@@ -1,0 +1,75 @@
+{
+  "title": "Atividade",
+  "selectCompany": "Selecione uma empresa para visualizar a atividade.",
+  "empty": {
+    "noActivity": "Nenhuma atividade ainda."
+  },
+  "filter": {
+    "allTypes": "Todos os tipos",
+    "placeholder": "Filtrar por tipo"
+  },
+  "actionVerbs": {
+    "issue": {
+      "created": "criou",
+      "updated": "atualizou",
+      "checked_out": "fez checkout de",
+      "released": "liberou",
+      "comment_added": "comentou em",
+      "attachment_added": "anexou arquivo em",
+      "attachment_removed": "removeu anexo de",
+      "document_created": "criou documento para",
+      "document_updated": "atualizou documento em",
+      "document_deleted": "deletou documento de",
+      "commented": "comentou em",
+      "deleted": "deletou"
+    },
+    "agent": {
+      "created": "criou",
+      "updated": "atualizou",
+      "paused": "pausou",
+      "resumed": "retomou",
+      "terminated": "encerrou",
+      "key_created": "criou chave de API para",
+      "budget_updated": "atualizou orçamento para",
+      "runtime_session_reset": "resetou sessão para"
+    },
+    "heartbeat": {
+      "invoked": "invocou heartbeat para",
+      "cancelled": "cancelou heartbeat para"
+    },
+    "approval": {
+      "created": "solicitou aprovação",
+      "approved": "aprovou",
+      "rejected": "rejeitou"
+    },
+    "project": {
+      "created": "criou",
+      "updated": "atualizou",
+      "deleted": "deletou"
+    },
+    "goal": {
+      "created": "criou",
+      "updated": "atualizou",
+      "deleted": "deletou"
+    },
+    "cost": {
+      "reported": "reportou custo para",
+      "recorded": "registrou custo para"
+    },
+    "company": {
+      "created": "criou empresa",
+      "updated": "atualizou empresa",
+      "archived": "arquivou",
+      "budget_updated": "atualizou orçamento para"
+    }
+  },
+  "changedStatusFrom": "alterou status de {{from}} para {{to}} em",
+  "changedStatusTo": "alterou status para {{to}} em",
+  "changedPriorityFrom": "alterou prioridade de {{from}} para {{to}} em",
+  "changedPriorityTo": "alterou prioridade para {{to}} em",
+  "actorNames": {
+    "system": "Sistema",
+    "board": "Painel",
+    "unknown": "Desconhecido"
+  }
+}

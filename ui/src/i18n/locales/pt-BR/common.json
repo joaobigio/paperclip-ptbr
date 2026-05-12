@@ -1,0 +1,106 @@
+{
+  "buttons": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "create": "Criar",
+    "close": "Fechar",
+    "back": "Voltar",
+    "clear": "Limpar",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "retry": "Tentar novamente",
+    "retrying": "Tentando novamente…",
+    "copy": "Copiar",
+    "copySnippet": "Copiar trecho",
+    "copiedSnippet": "Trecho copiado",
+    "copied": "Copiado",
+    "submit": "Enviar",
+    "addProject": "Adicionar Projeto",
+    "newAgent": "Novo Agente",
+    "newGoal": "Nova Meta",
+    "newIssue": "Novo Issue",
+    "getStarted": "Começar",
+    "openDashboard": "Abrir painel",
+    "goHome": "Ir para início",
+    "saveChanges": "Salvar alterações",
+    "saving": "Salvando…",
+    "saved": "Salvo",
+    "markAllAsRead": "Marcar tudo como lido",
+    "marking": "Marcando…"
+  },
+  "labels": {
+    "name": "Nome",
+    "email": "E-mail",
+    "password": "Senha",
+    "description": "Descrição",
+    "status": "Status",
+    "targetDate": "Data Alvo",
+    "loading": "Carregando…",
+    "working": "Processando…",
+    "recommended": "Recomendado",
+    "live": "Ativo",
+    "requestedPath": "Caminho solicitado"
+  },
+  "empty": {
+    "noResults": "Nenhum resultado encontrado.",
+    "noDataYet": "Nenhum dado ainda.",
+    "selectCompany": "Selecione uma empresa primeiro.",
+    "noTasks": "Nenhuma tarefa ainda."
+  },
+  "errors": {
+    "failedToSave": "Falha ao salvar",
+    "failedToApprove": "Falha ao aprovar",
+    "failedToReject": "Falha ao rejeitar",
+    "failedToArchive": "Falha ao arquivar empresa",
+    "authenticationFailed": "Falha na autenticação",
+    "logoUploadFailed": "Falha no upload do logo",
+    "failedToRetryRun": "Falha ao tentar executar novamente",
+    "failedToApproveJoinRequest": "Falha ao aprovar solicitação de entrada",
+    "failedToRejectJoinRequest": "Falha ao rejeitar solicitação de entrada"
+  },
+  "status": {
+    "all": "Todos",
+    "active": "Ativo",
+    "paused": "Pausado",
+    "error": "Erro",
+    "pending": "Pendente",
+    "running": "Executando",
+    "terminated": "Encerrado"
+  },
+  "filters": {
+    "filters": "Filtros",
+    "filterByType": "Filtrar por tipo",
+    "allTypes": "Todos os tipos",
+    "showTerminated": "Mostrar encerrados",
+    "clearAll": "Limpar tudo"
+  },
+  "time": {
+    "last14Days": "Últimos 14 dias"
+  },
+  "plurals": {
+    "agent_one": "{{count}} agente",
+    "agent_other": "{{count}} agentes"
+  },
+  "commentThread": {
+    "commentsAndRuns": "Comentários & Execuções ({{count}})",
+    "noCommentsOrRuns": "Nenhum comentário ou execução ainda.",
+    "leaveComment": "Deixe um comentário...",
+    "posting": "Publicando…",
+    "comment": "Comentar",
+    "reOpen": "Reabrir",
+    "run": "Executar",
+    "attachImage": "Anexar imagem",
+    "copyAsMarkdown": "Copiar como markdown",
+    "assignee": "Responsável",
+    "noAssignee": "Sem responsável",
+    "searchAssignees": "Buscar responsáveis...",
+    "noAssigneesFound": "Nenhum responsável encontrado."
+  },
+  "filterBar": {
+    "clearAll": "Limpar tudo"
+  },
+  "worktreeBanner": {
+    "worktree": "Worktree"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Metas",
+  "selectCompany": "Selecione uma empresa para visualizar as metas.",
+  "empty": {
+    "noGoals": "Nenhuma meta ainda.",
+    "noSubGoals": "Nenhuma submeta.",
+    "noLinkedProjects": "Nenhum projeto vinculado."
+  },
+  "newGoal": "Nova Meta",
+  "addGoal": "Adicionar Meta",
+  "subGoal": "Submeta",
+  "detail": {
+    "addDescription": "Adicionar uma descrição...",
+    "tabs": {
+      "subGoals": "Submetas ({{count}})",
+      "projects": "Projetos ({{count}})"
+    },
+    "noSubGoals": "Nenhuma submeta.",
+    "noLinkedProjects": "Nenhum projeto vinculado."
+  },
+  "newGoalDialog": {
+    "newGoal": "Nova meta",
+    "newSubGoal": "Nova submeta",
+    "descriptionPlaceholder": "Adicionar descrição...",
+    "levelLabels": {
+      "company": "Empresa",
+      "team": "Equipe",
+      "agent": "Agente",
+      "task": "Tarefa"
+    },
+    "creating": "Criando…",
+    "createSubGoal": "Criar submeta",
+    "createGoal": "Criar meta"
+  },
+  "properties": {
+    "status": "Status",
+    "level": "Nível",
+    "owner": "Responsável",
+    "parentGoal": "Meta Principal",
+    "created": "Criado",
+    "updated": "Atualizado",
+    "none": "Nenhum"
+  }
+}

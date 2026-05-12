@@ -1,0 +1,100 @@
+{
+  "title": "Começar",
+  "steps": {
+    "company": "Empresa",
+    "agent": "Agente",
+    "task": "Tarefa",
+    "launch": "Iniciar"
+  },
+  "close": "Fechar",
+  "step1": {
+    "title": "Nomeie sua empresa",
+    "subtitle": "Esta é a organização para a qual seus agentes trabalharão.",
+    "companyNameLabel": "Nome da empresa",
+    "companyNamePlaceholder": "Acme Corp",
+    "goalLabel": "Missão / objetivo (opcional)",
+    "goalPlaceholder": "O que esta empresa está tentando alcançar?"
+  },
+  "step2": {
+    "title": "Crie seu primeiro agente",
+    "subtitle": "Escolha como este agente executará tarefas.",
+    "agentNameLabel": "Nome do agente",
+    "agentNamePlaceholder": "CEO",
+    "adapterTypeLabel": "Tipo de adaptador",
+    "recommended": "Recomendado",
+    "moreAdapterTypes": "Mais Tipos de Adaptadores de Agente",
+    "workingDirectoryLabel": "Diretório de trabalho",
+    "workingDirectoryHint": "Paperclip funciona melhor se você criar uma nova pasta para seus agentes manterem suas memórias e ficarem organizados. Crie uma nova pasta e coloque o caminho aqui.",
+    "workingDirectoryPlaceholder": "/caminho/para/projeto",
+    "modelLabel": "Modelo",
+    "modelDefault": "Padrão",
+    "modelSelectRequired": "Selecione o modelo (obrigatório)",
+    "modelSearchPlaceholder": "Buscar modelos...",
+    "noModelsDiscovered": "Nenhum modelo descoberto.",
+    "adapterEnvCheck": "Verificação do ambiente do adaptador",
+    "adapterEnvCheckDesc": "Executa uma sondagem ao vivo que pede ao CLI do adaptador para responder com hello.",
+    "testing": "Testando…",
+    "testNow": "Testar agora",
+    "passed": "Aprovado",
+    "apiKeyWarning": "Claude falhou enquanto ANTHROPIC_API_KEY está definida. Você pode limpá-la nas configurações deste adaptador CEO e tentar a sondagem novamente.",
+    "retrying": "Tentando novamente…",
+    "unsetApiKey": "Remover ANTHROPIC_API_KEY",
+    "manualDebug": "Debug manual",
+    "prompt": "Prompt",
+    "authFails": "Se a autenticação falhar, defina",
+    "inEnvOrRun": "no ambiente ou execute",
+    "ifLoginRequired": "Se o login for necessário, execute",
+    "andRetry": "e tente novamente.",
+    "commandLabel": "Comando",
+    "commandPlaceholder": "ex: node, python",
+    "argsLabel": "Argumentos (separados por vírgula)",
+    "argsPlaceholder": "ex: script.js, --flag",
+    "gatewayUrlLabel": "URL do Gateway",
+    "webhookUrlLabel": "URL do Webhook",
+    "gatewayUrlPlaceholder": "ws://127.0.0.1:18789",
+    "webhookUrlPlaceholder": "https://..."
+  },
+  "step3": {
+    "title": "Dê algo para fazer",
+    "subtitle": "Dê ao seu agente uma pequena tarefa para começar — uma correção de bug, uma pergunta de pesquisa, escrever um script.",
+    "taskTitleLabel": "Título da tarefa",
+    "taskTitlePlaceholder": "ex: Pesquisar preços da concorrência",
+    "descriptionLabel": "Descrição (opcional)",
+    "descriptionPlaceholder": "Adicione mais detalhes sobre o que o agente deve fazer..."
+  },
+  "step4": {
+    "title": "Pronto para iniciar",
+    "subtitle": "Tudo está configurado. Iniciar agora criará a tarefa inicial, acordará o agente e abrirá a issue.",
+    "companyLabel": "Empresa",
+    "taskLabel": "Tarefa"
+  },
+  "nav": {
+    "back": "Voltar",
+    "creating": "Criando…",
+    "next": "Próximo",
+    "createAndOpen": "Criar e Abrir Issue"
+  },
+  "adapterOptions": {
+    "claudeCode": "Claude Code",
+    "claudeCodeDesc": "Agente Claude local",
+    "codex": "Codex",
+    "codexDesc": "Agente Codex local",
+    "geminiCli": "Gemini CLI",
+    "geminiCliDesc": "Agente Gemini local",
+    "openCode": "OpenCode",
+    "openCodeDesc": "Agente multi-provedor local",
+    "pi": "Pi",
+    "piDesc": "Agente Pi local",
+    "cursor": "Cursor",
+    "cursorDesc": "Agente Cursor local",
+    "openClawGateway": "OpenClaw Gateway",
+    "openClawGatewayDesc": "Invocar OpenClaw via protocolo gateway",
+    "openClawGatewayDisabledLabel": "Configure OpenClaw dentro do Aplicativo"
+  },
+  "envTest": {
+    "passed": "Aprovado",
+    "warnings": "Avisos",
+    "failed": "Falhou",
+    "hint": "Dica:"
+  }
+}
