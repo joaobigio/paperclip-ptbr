@@ -128,13 +128,6 @@ const priorityColors: Record<string, string> = {
   low: "#6b7280",
 };
 
-const priorityLabels: Record<string, string> = {
-  critical: "Crítica",
-  high: "Alta",
-  medium: "Média",
-  low: "Baixa",
-};
-
 const priorityOrder = ["critical", "high", "medium", "low"] as const;
 
 export function PriorityChart({ issues }: { issues: { priority: string; createdAt: Date }[] }) {
@@ -176,7 +169,7 @@ export function PriorityChart({ issues }: { issues: { priority: string; createdA
         })}
       </div>
       <DateLabels days={days} />
-      <ChartLegend items={priorityOrder.map(p => ({ color: priorityColors[p], label: priorityLabels[p] ?? p }))} />
+      <ChartLegend items={priorityOrder.map(p => ({ color: priorityColors[p], label: p.charAt(0).toUpperCase() + p.slice(1) }))} />
     </div>
   );
 }
@@ -192,12 +185,12 @@ const statusColors: Record<string, string> = {
 };
 
 const statusLabels: Record<string, string> = {
-  todo: "A Fazer",
-  in_progress: "Em Andamento",
-  in_review: "Em Revisão",
-  done: "Concluído",
-  blocked: "Bloqueado",
-  cancelled: "Cancelado",
+  todo: "To Do",
+  in_progress: "In Progress",
+  in_review: "In Review",
+  done: "Done",
+  blocked: "Blocked",
+  cancelled: "Cancelled",
   backlog: "Backlog",
 };
 

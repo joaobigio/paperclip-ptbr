@@ -569,18 +569,18 @@ export function formatDurationWords(ms: number | null) {
   if (ms === null || !Number.isFinite(ms) || ms <= 0) return null;
   const totalSeconds = Math.max(1, Math.round(ms / 1000));
   if (totalSeconds < 60) {
-    return `${totalSeconds} segundo${totalSeconds === 1 ? "" : "s"}`;
+    return `${totalSeconds} second${totalSeconds === 1 ? "" : "s"}`;
   }
   const totalMinutes = Math.round(totalSeconds / 60);
   if (totalMinutes < 60) {
-    return `${totalMinutes} minuto${totalMinutes === 1 ? "" : "s"}`;
+    return `${totalMinutes} minute${totalMinutes === 1 ? "" : "s"}`;
   }
   const hours = Math.floor(totalMinutes / 60);
   const minutes = totalMinutes % 60;
   if (minutes === 0) {
-    return `${hours} hora${hours === 1 ? "" : "s"}`;
+    return `${hours} hour${hours === 1 ? "" : "s"}`;
   }
-  return `${hours} hora${hours === 1 ? "" : "s"} ${minutes} minuto${minutes === 1 ? "" : "s"}`;
+  return `${hours} hour${hours === 1 ? "" : "s"} ${minutes} minute${minutes === 1 ? "" : "s"}`;
 }
 
 function runDurationLabel(run: {
@@ -597,21 +597,21 @@ function runDurationLabel(run: {
   const stopReason = typeof run.resultJson?.stopReason === "string" ? run.resultJson.stopReason : null;
   switch (run.status) {
     case "succeeded":
-      return durationText ? `Trabalhou por ${durationText}` : "Trabalho concluído";
+      return durationText ? `Worked for ${durationText}` : "Finished work";
     case "failed":
     case "error":
-      return durationText ? `Falhou após ${durationText}` : "Execução falhou";
+      return durationText ? `Failed after ${durationText}` : "Run failed";
     case "timed_out":
-      return durationText ? `Tempo esgotado após ${durationText}` : "Tempo esgotado";
+      return durationText ? `Timed out after ${durationText}` : "Run timed out";
     case "cancelled":
       if (stopReason === "paused") {
-        return durationText ? `Pausado pelo painel após ${durationText}` : "Pausado pelo painel";
+        return durationText ? `Paused by board after ${durationText}` : "Paused by board";
       }
-      return durationText ? `Cancelado após ${durationText}` : "Execução cancelada";
+      return durationText ? `Cancelled after ${durationText}` : "Run cancelled";
     case "queued":
-      return "Na fila";
+      return "Queued";
     case "running":
-      return "Trabalhando...";
+      return "Working...";
     default:
       return formatStatusLabel(run.status);
   }

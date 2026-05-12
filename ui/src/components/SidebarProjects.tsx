@@ -291,20 +291,20 @@ export function SidebarProjects() {
 
   return (
     <SidebarSection
-      label="Projetos"
+      label="Projects"
       collapsible={{ open, onOpenChange: setOpen }}
       headerAction={{
-        ariaLabel: "Novo projeto",
+        ariaLabel: "New project",
         icon: Plus,
         onClick: openNewProject,
       }}
       menu={{
-        ariaLabel: "Ações da seção Projetos",
+        ariaLabel: "Projects section actions",
         actions: [
-          { type: "item", label: "Ver todos os projetos", icon: FolderOpen, href: "/projects" },
+          { type: "item", label: "Browse projects", icon: FolderOpen, href: "/projects" },
           { type: "separator" },
         ],
-        radioLabel: "Ordenar projetos",
+        radioLabel: "Project sort",
         radioChoices: PROJECT_SORT_CHOICES,
         radioValue: sortMode,
         onRadioValueChange: persistSortMode,

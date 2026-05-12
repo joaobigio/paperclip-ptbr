@@ -345,20 +345,20 @@ export function SidebarAgents() {
 
   return (
     <SidebarSection
-      label="Agentes"
+      label="Agents"
       collapsible={{ open, onOpenChange: setOpen }}
       headerAction={{
-        ariaLabel: "Novo agente",
+        ariaLabel: "New agent",
         icon: Plus,
         onClick: openNewAgent,
       }}
       menu={{
-        ariaLabel: "Ações da seção Agentes",
+        ariaLabel: "Agents section actions",
         actions: [
-          { type: "item", label: "Ver todos os agentes", icon: Users, href: "/agents/all" },
+          { type: "item", label: "Browse agents", icon: Users, href: "/agents/all" },
           { type: "separator" },
         ],
-        radioLabel: "Ordenar agentes",
+        radioLabel: "Agent sort",
         radioChoices: AGENT_SORT_CHOICES,
         radioValue: sortMode,
         onRadioValueChange: persistSortMode,
